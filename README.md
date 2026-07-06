@@ -1,17 +1,16 @@
-# Port Scanner
+# Python Port Scanner
 
-**Project for Cybersecurity Internship**
+Multithreaded TCP port scanner for cybersecurity learning labs.
 
-This is a multi-threaded Port Scanner made in Python. It can scan open ports on any target IP or domain.
+## Usage
 
-## Features
-- Fast scanning using threads
-- Shows open ports clearly
-- Easy to use
+```bash
+python3 App.py scanme.nmap.org
+python3 App.py 192.168.1.1 --start 1 --end 1024
+```
 
-## How to Run
-1. Open Command Prompt
-2. Go to project folder
-3. Run command:
-   ```bash
-   py App.py
+Only scan networks and hosts you are authorized to test.
+
+## Requirements
+
+Python 3.9+ (standard library only).
